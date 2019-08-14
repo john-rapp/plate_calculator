@@ -1,2 +1,3 @@
 # plate_calculator
-A calculator for all your weightlifting needs.
+
+A calculator for all your strength training needs.

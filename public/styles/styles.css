@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(58, 58, 58);
+  color: rgb(255, 255, 255);
+}
+
+.barbell {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.middle {
+  height: 20px;
+  width: 30%;
+  background-color: rgb(129, 129, 129);
+}
+
+.sleeve {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.plate {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.fiftyFive {
+  background-color: rgb(255, 0, 0);
+  height: 200px;
+  width: 25px;
+}
+
+.fortyFive {
+  background-color: rgb(0, 102, 255);
+  width: 20px;
+  height: 180px;
+}
+
+.thirtyFive {
+  background-color: rgb(251, 255, 0);
+  width: 20px;
+  height: 140px;
+}
+
+.twentyFive {
+  background-color: rgb(30, 255, 0);
+  width: 20px;
+  height: 120px;
+}
+
+.ten {
+  background-color: rgb(255, 255, 255);
+  width: 15px;
+  height: 110px;
+}
+
+.five {
+  background-color: rgb(30, 255, 0);
+  width: 5px;
+  height: 90px;
+}
+
+.twoAndHalf {
+  background-color: rgb(0, 102, 255);
+  width: 5px;
+  height: 75px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <title>Plate Calculator</title>
+  </head>
+  <body>
+    <h1>How much weight do you want?</h1>
+    <input
+      id="totalWeight"
+      type="number"
+      max="1200"
+      min="0"
+      step="5"
+      value="0"
+      placeholder="Enter weight"
+    />
+    <button type="submit" onclick="getPlates()">Submit</button>
+
+    <div class="barbell">
+      <div class="sleeve"></div>
+      <div class="middle"></div>
+      <div class="sleeve"></div>
+    </div>
+
+    <h3 id="output"></h3>
+
+    <script src="scripts/math.js"></script>
+  </body>
+</html>
